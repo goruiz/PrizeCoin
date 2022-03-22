@@ -29,6 +29,12 @@ public class CajaDestruida : MonoBehaviour
         if (collision.gameObject.name == "Piso")
         {
             
+            
+            
+            
+            
+            
+            
             Destroy(this.gameObject);
             Instantiate(sonido);
             Instantiate(moneda, transform.position, Quaternion.identity);
